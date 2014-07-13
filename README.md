@@ -1,4 +1,4 @@
-# Using JSON Schema Programs and Examples
+# Using JSON Schema: Programs and Examples
 
 Part of the [Using JSON Schema](http://usingjsonschema.github.io) project.
 
