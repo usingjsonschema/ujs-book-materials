@@ -1,0 +1,17 @@
+{
+  "servers":
+  [
+    {
+      "name":"Web Server",
+      "start":true,
+      "program":"webserver",
+      "port":8301
+    },
+    {
+      "name":"Data Server",
+      "start":true,
+      "program":"dataserver",
+      "port":8302
+    }
+  ]
+}

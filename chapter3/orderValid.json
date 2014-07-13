@@ -1,0 +1,19 @@
+{
+  "orders":
+  [
+    {
+      "order":"123456789",
+      "billTo":"Jane Doe",
+      "billAddress":"1234 Elm St, Anytown PA 12345",
+      "shipTo":"John Public",
+      "shipAddress":"2345 Oak St, Anytown PA 12346",
+      "loyaltyId":"A123456",
+      "loyaltyBonus":"Free shipping"
+    },
+    {
+      "order":"234567890",
+      "billTo":"Jack Smith",
+      "billAddress":"111 Main St, Anytown PA 12345"
+    }
+  ]
+}

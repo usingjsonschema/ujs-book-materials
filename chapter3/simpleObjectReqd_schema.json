@@ -1,0 +1,14 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"Server",
+  "description":"IP server with required properties",
+
+  "type":"object",
+  "properties":
+  {
+    "address":{"type":"string"},
+    "port":{"type":"integer"}
+  },
+  "additionalProperties":false,
+  "required":["address", "port"]
+}

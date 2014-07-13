@@ -1,0 +1,24 @@
+{
+  "server":
+  {
+    "name":"Server 14",
+    "address":"192.168.1.24",
+    "port":80,
+    "admin":[1080, 1081]
+  },
+  "pages":
+  [
+    {
+      "url":"/",
+      "page":"public/home.html"
+    },
+    {
+      "url":"/about",
+      "page":"public/company/about.html"
+    },
+    {
+      "url":"/careers",
+      "page":"public/company/careers.html"
+    }
+  ]
+}

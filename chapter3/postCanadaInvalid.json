@@ -1,0 +1,11 @@
+{
+  "address":
+  {
+    "name":"John and Jane Doe",
+    "number":"1124",
+    "street":"Elm Street",
+    "city":"Anytown",
+    "province":"PD",
+    "postalCode":"A1B2C3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"Primary and Backup Servers",
+  "description":"IP address/port for primary/backup server pair",
+
+  "type":"array", "minItems":2, "maxItems":2,
+  "items":
+  {
+    "type":"object",
+    "properties":
+    {
+      "address":{"type":"string"},
+      "port":{"type":"integer", "minimum":0, "maximum":65535}
+    },
+    "required":["address", "port"]
+  },
+  "uniqueItems":true,
+  "additionalItems":false
+}

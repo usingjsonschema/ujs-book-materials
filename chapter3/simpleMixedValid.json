@@ -1,0 +1,22 @@
+{
+  "server":
+  {
+    "address":"192.168.1.60",
+    "port":80
+  },
+  "pages":
+  [
+    {
+      "url":"/",
+      "page":"public/home.html"
+    },
+    {
+      "url":"/about",
+      "page":"public/company/about.html"
+    },
+    {
+      "url":"/careers",
+      "page":"public/company/careers.html"
+    }
+  ]
+}

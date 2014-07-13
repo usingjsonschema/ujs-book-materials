@@ -1,0 +1,49 @@
+[
+  {
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Person",
+    "description":"Simple person definition",
+
+    "id":"jsdb:person",
+
+    "type":"object",
+    "properties":
+    {
+      "name":{"type":"string"},
+      "address":{"$ref":"jsdb:address#"}
+    },
+    "required":["name", "address"]
+  },
+  {
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Address",
+    "description":"Simple address",
+
+    "id":"jsdb:address",
+
+    "type":"object",
+    "properties":
+    {
+      "street":{"type":"string"},
+      "city":{"type":"string"},
+      "zipcode":{"$ref":"jsdb:zipcode#/definitions/zipcode"}
+    },
+    "required":["street", "city", "zipcode"]
+  },
+  {
+    "$schema":"http://json-schema.org/draft-04/schema#",
+    "title":"Zip code",
+    "description":"Zip code",
+
+    "id":"jsdb:zipcode",
+
+    "definitions":
+    {
+      "zipcode":
+      {
+        "type":"string",
+        "pattern":"^[0-9]{5}(-[0-9]{4})?$"
+      }
+    }
+  }
+]

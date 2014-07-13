@@ -1,0 +1,13 @@
+{
+  "orders":
+  [
+    {
+      "order":"123456789",
+      "billTo":"Jane Doe",
+      "billAddress":"1234 Elm St, Anytown PA 12345",
+      "shipTo":"John Public",
+      "loyaltyId":"A123456",
+      "loyaltyBonus":"Free shipping"
+    }
+  ]
+}

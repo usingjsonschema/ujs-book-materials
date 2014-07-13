@@ -1,0 +1,12 @@
+{
+  "person":
+  {
+    "name":"John Doe",
+    "address":
+    {
+        "street":"123 Oak St",
+        "city":"Anytown",
+        "zipcode":"12345"
+    }
+  }
+}

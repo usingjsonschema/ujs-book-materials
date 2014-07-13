@@ -1,0 +1,37 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"Order",
+  "description":"Order billing and shipping information",
+
+  "type":"object",
+  "properties":
+  {
+    "orders":
+    {
+      "type":"array",
+      "items":
+      {
+        "properties":
+        {
+          "order":{"type":"string"},
+          "billTo":{"type":"string"},
+          "billAddress":{"type":"string"},
+          "shipTo":{"type":"string"}
+        },
+        "required":["order", "billTo", "billAddress"],
+        "dependencies":
+        {
+          "shipTo":
+          {
+            "properties":
+            {
+              "shipAddress":{"type":"string"},
+              "signature":{"type":"boolean"}
+            },
+            "required":["shipAddress","signature"]
+          }
+        }
+      }
+    }
+  }
+}

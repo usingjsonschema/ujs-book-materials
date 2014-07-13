@@ -1,0 +1,25 @@
+{
+  "employees":
+  [
+    {
+      "name":"Adam Ames",
+      "unit":100,
+      "title":"Staff Accountant"
+    },
+    {
+      "name":"Barbara Barnes",
+      "unit":101,
+      "title":"Auditor"
+    },
+    {
+      "name":"Carrie Conner",
+      "unit":1,
+      "title":"Board Chair and CEO"
+    },
+    {
+        "name":"Dan Davis",
+        "unit":200,
+        "title":"Benefits Analyst"
+    }
+  ]
+}

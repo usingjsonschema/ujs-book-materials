@@ -1,0 +1,11 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"Distance",
+  "description":"Distance, must be greater than zero.",
+
+  "type":"object",
+  "properties":
+  {
+    "distance":{"type":"number", "minimum":0.0, "exclusiveMinimum":true}
+  }
+}

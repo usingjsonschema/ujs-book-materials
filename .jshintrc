@@ -1,0 +1,60 @@
+{
+    // Enforcing options
+    "bitwise" : true,
+    "curly" : true,
+    "eqeqeq" : true,
+    "es3" : false,
+    "es5" : true,
+    "forin" : true,
+    "immed" : true,
+    "indent" : 4,
+    "latedef" : "nofunc",
+    "newcap" : true,
+    "noarg" : true,
+    "noempty" : true,
+    "nonew" : true,
+    "plusplus" : false,
+    "quotmark" : "double",
+    "strict" : false,
+    "trailing" : true,
+    "undef" : true,
+    "unused" : true,
+
+    // Relaxing options
+    "asi" : false,
+    "boss" : false,
+    "debug" : false,
+    "eqnull" : false,
+    "esnext" : false,
+    "evil" : false,
+    "expr" : false,
+    "funcscope" : false,
+    "gcl" : false,
+    "globalstrict" : false,
+    "iterator" : false,
+    "lastsemic" : false,
+    "laxbreak" : false,
+    "laxcomma" : false,
+    "loopfunc" : false,
+    "moz": false,
+    "multistr" : false,
+    "proto" : false,
+    "scripturl" : false,
+    "smarttabs" : false,
+    "shadow" : false,
+    "sub" : false,
+    "supernew" : false,
+    "validthis" : false,
+
+    // Environments
+    "node" : true,
+
+    // Global definitions
+    "globals" :
+    {
+        "describe" : true,
+        "it" : true,
+        "before" : true,
+        "after" : true
+    }
+}

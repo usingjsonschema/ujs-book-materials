@@ -1,0 +1,15 @@
+{
+  "address":
+  {
+    "name":"John and Jane Doe",
+    "number":"1124",
+    "street":"Elm Street",
+    "city":"Anytown",
+    "national":
+    {
+      "province":"PD",
+      "country":"CAN",
+      "postalCode":"A1B2C3"
+    }
+  }
+}

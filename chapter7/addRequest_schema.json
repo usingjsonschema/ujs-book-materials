@@ -1,0 +1,14 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema#",
+  "title":"Addition request",
+  "description":"Numbers to add together",
+
+  "type":"object",
+  "properties":
+  {
+    "number1":{"type":"integer"},
+    "number2":{"type":"integer"}
+  },
+  "additionalProperties":false,
+  "required":["number1", "number2"]
+}

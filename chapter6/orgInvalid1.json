@@ -1,0 +1,38 @@
+{
+  "units":
+  [
+    {
+      "unitId":100,
+      "unitOf":1,
+      "name":"Finance"
+    },
+    {
+      "unitId":101,
+      "unitOf":100,
+      "name":"Audit"
+    },
+    {
+      "unitId":200,
+      "unitOf":1,
+      "name":"Human Resources"
+    }
+  ],
+  "board":
+  [
+    {
+      "name":"Ann Allen",
+      "independent":true,
+      "chair":false
+    },
+    {
+      "name":"Bob Baker",
+      "independent":true,
+      "chair":false
+    },
+    {
+      "name":"Carrie Conner",
+      "independent":false,
+      "chair":true
+    }
+  ]
+}
