@@ -6,7 +6,7 @@ from json import loads
 
 # read the file and convert to a JSON object
 data = open ("multipleObject.json", "rU").read ()
-configuration = json.loads (data)
+configuration = loads (data)
 
 # display the port in the server definition
 print ("port: " + str (configuration["server"]["port"]))
